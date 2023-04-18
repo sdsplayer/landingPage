@@ -1,4 +1,3 @@
-import React from "react";
 import { Footer , Text , Com , Tetxp , Follow , ICON , Contact , Group , Infomation , Service , Account , Offers , Line , Name , Texts , Cards} from './style'
 import Logo from '../../assets/images/1.jpg'
 import {FaFacebookF } from 'react-icons/fa'
@@ -14,8 +13,8 @@ function App() {
                 <Text>
                     <Com>
                         <Tetxp>
-                        <img src={Logo} alt="" />
-                        <p>E-Comm</p>
+                        <img style={{cursor:"pointer"}} src={Logo} alt="" />
+                        <p style={{cursor:'pointer'}}>E-Comm</p>
                         </Tetxp>
                         <p>Lorem Ipsum is simply dummy text of the <br /> printing and typesetting industry. Lorem <br /> Ipsum has been the industry's standard <br /> dummy text ever.Since the 1500s, when <br /> an unknown printer.</p>
                     </Com>
@@ -55,13 +54,13 @@ function App() {
 
             <Name>
                 <Texts>
-                    <p>© 2018 Ecommerce theme by www.bisenbaev.com</p>
+                    <p style={{cursor:'pointer'}}>© 2018 Ecommerce theme by www.bisenbaev.com</p>
                 </Texts>
             <Cards>
-                <img style={{marginTop:'10px'}} width={90} src={Union} alt="" />
-                <img style={{marginTop:'7px'}} width={65} height={66} src={Master} alt="" />
-                <img style={{marginTop:'13px'}} width={65} height={60} src={Pal} alt="" />
-                <img style={{marginTop:'11px'}} width={78} height={61} src={Visa} alt="" />
+                <img style={{marginTop:'10px', cursor:'pointer'}} width={90} src={Union} alt="salom" />
+                <img style={{marginTop:'7px', cursor:'pointer'}} width={65} height={66} src={Master} alt="salom" />
+                <img style={{marginTop:'13px', cursor:'pointer'}} width={65} height={60} src={Pal} alt="salom" />
+                <img style={{marginTop:'11px', cursor:'pointer'}} width={78} height={61} src={Visa} alt="salom" />
             </Cards>
             </Name>
           </Footer>

@@ -27,6 +27,7 @@ export const Com = styled.div`
 export const Follow = styled.div`
     margin-left: 110px;
     .us{
+        cursor: pointer;
         font-family: Poppins;
         font-size: 18px;
         font-weight: 500;
@@ -49,11 +50,13 @@ export const Follow = styled.div`
 export const ICON = styled.div`
     display: flex;
     .iconF{
+    cursor: pointer;
      color: #385C8E;
      margin-top: 20px;
      font-size: 21px;
     }
     .iconT{
+    cursor: pointer;
     margin-left: 50px;
     color: #03A9F4;
     font-size: 21px;
@@ -64,6 +67,7 @@ export const ICON = styled.div`
 export const Contact = styled.div`
     margin-right: 170px;
     .uss{
+        cursor: pointer;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
@@ -103,6 +107,7 @@ export const Group = styled.div`
 `
 export const Infomation = styled.div`
     .aboutt{
+        cursor: pointer;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -122,6 +127,7 @@ export const Infomation = styled.div`
 `
 export const Service = styled.div`
     .services{
+    cursor: pointer;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -141,6 +147,7 @@ export const Service = styled.div`
 `
 export const Account = styled.div`
     .account{
+    cursor: pointer;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -160,6 +167,7 @@ export const Account = styled.div`
 `
 export const Offers = styled.div`
     .offer{
+    cursor: pointer;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
